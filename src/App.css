@@ -3,6 +3,16 @@ body {
 	margin: 5%;
 }
 
+.head {
+	border-top: 10px solid #4285F4;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    padding: 30px;
+    margin: 5px;
+    background-color: #fff;
+}
 
 span {
   color: red;

@@ -3,12 +3,18 @@ body {
 	margin: 5%;
 }
 
+.registration {
+  align-content: center;
+  justify-content: center;
+  margin: 3rem 20rem;
+
+}
+
 .head {
 	border-top: 10px solid #4285F4;
     border-radius: 10px;
     justify-content: center;
     align-content: center;
-    width: 90%;
     padding: 30px;
     margin: 5px;
     background-color: #fff;
@@ -27,7 +33,6 @@ span {
 	border-radius: 10px;
 	justify-content: center;
 	align-content: center;
-	width: 90%;
 	margin-top: 30px;
 	height: 10vh;
 	padding: 30px;
@@ -49,7 +54,6 @@ input {
 	border-radius: 10px;
 	justify-content: center;
 	align-content: center;
-	width: 90%;
 	margin-top: 30px;
 	height: 20vh;
 	padding: 30px;
@@ -60,7 +64,6 @@ input {
 	border-radius: 10px;
 	justify-content: center;
 	align-content: center;
-	width: 90%;
 	margin-top: 30px;
 	height: 10vh;
 	padding: 30px;
@@ -71,7 +74,8 @@ input {
 	height: 35px;
 	background-color: #287cfb;
 	color: #fff;
-	border-radius: 10%;
+	border-radius: 10px;
+  padding: 10px 30px;
 }
 
 .page > ul > li{

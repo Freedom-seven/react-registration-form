@@ -44,3 +44,14 @@ input {
 	border-bottom: 1px solid #000;
 	margin-top: 20px;
 }
+
+.kin {
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	width: 90%;
+	margin-top: 30px;
+	height: 20vh;
+	padding: 30px;
+	background-color: #fff;
+}

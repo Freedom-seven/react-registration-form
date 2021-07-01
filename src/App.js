@@ -87,7 +87,7 @@ class App extends Component {
       <br/><br/>
 
       <section id="footer">
-          <h4 style={{color: "grey"}}>A copy of your repones will be emailed to the adree you provided</h4>
+          <h5 style={{color: "grey"}}>A copy of your repones will be emailed to the adree you provided</h5>
           <input type="submit" name="submit"/>
         <div className="page">
           <ul>
@@ -98,7 +98,8 @@ class App extends Component {
           <label for="file"></label>
           <progress  id="file" value="100" max="100">100% </progress> 
           </li>
-        </ul>
+        </ul><br/>
+        <p>Never submit passwords through Google Forms.</p>
         </div>
       </section>
       </form>

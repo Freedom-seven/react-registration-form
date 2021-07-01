@@ -82,3 +82,45 @@ input {
 	list-style: none;
 	float: right;	
 }
+
+.reCAP {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.reCAP a {
+  margin-right: 5px;
+  color: grey;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.cap {
+  text-align: center;
+  margin: 5px;
+  margin-bottom: -20px;
+  padding-left: 20px;
+  color: grey;
+}
+
+.img {
+  width: 35px;
+  height: 35px;
+}
+
+.links {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+
+}
+
+.links a {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}

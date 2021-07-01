@@ -41,13 +41,27 @@ class App extends Component {
       <div className="fee">
         <p>Can you pay 60% or more of the full Codetrain fees (GHS6000 for Ghanaian applicants or $1,200 for international applicants) <span style="color: red">*</span> </p>
         
-        <input type="checkbox" name=" No" value="No"/>
+        <input type="checkbox" name="No" value="No"/>
         <label>No</label>
         <br/>
         
         <input type="checkbox" name="Yes" value="Yes"/>
         <label>Yes</label> 
       </div>
+
+      <div className="fees">
+        <p>Can you pay 60% or more of the full Codetrain fees (GHS6000 for Ghanaian applicants or $1,200 for international applicants) <span style="color: red">*</span></p>
+        <input type="checkbox" name="yourself" value="Yourself"/>
+        <label>Yourself</label>
+        <br/>
+        <input type="checkbox" name="parentSponsor" value="Parent / Sponsor"/>
+        <label>Parent / Sponser</label>
+        <br/>
+        <input type="checkbox" name="organization" value="Organization"/>
+        <label>Organization</label>
+      </div>
+
+      
       </form>
     );
   }

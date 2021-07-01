@@ -33,6 +33,8 @@ span {
 	padding: 30px;
 	background-color: #fff;
 	box-shadow: 1px;
+}
 
-
+.fee, .fees {
+	height: 20vh;
 }

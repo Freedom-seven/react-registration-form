@@ -55,3 +55,14 @@ input {
 	padding: 30px;
 	background-color: #fff;
 }
+
+.join, .about {
+	border-radius: 10px;
+	justify-content: center;
+	align-content: center;
+	width: 90%;
+	margin-top: 30px;
+	height: 10vh;
+	padding: 30px;
+	background-color: #fff;
+}

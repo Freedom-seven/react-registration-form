@@ -24,6 +24,13 @@ class App extends Component {
         <br/><br/>
         <input type="text" name="fullName" id="Full Name" placeholder="Full Name"/>
       </div>
+
+      <div className="number">
+        <label>Phone Number <span>*</span></label>
+        <br/>
+        <input type="text" name="phoneNumber" placeholder="Your answer"/>
+      </div>
+      
       </form>
     );
   }

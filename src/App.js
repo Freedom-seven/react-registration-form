@@ -30,6 +30,14 @@ class App extends Component {
         <br/>
         <input type="text" name="phoneNumber" placeholder="Your answer"/>
       </div>
+
+      <div class="kin">
+        <label> Phone number of next of kin</label>
+        <p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
+        <br/>
+        <input type="text" name="kin" placeholder="Your answer"/>
+      </div>
+
       
       </form>
     );

@@ -31,14 +31,23 @@ class App extends Component {
         <input type="text" name="phoneNumber" placeholder="Your answer"/>
       </div>
 
-      <div class="kin">
+      <div className="kin">
         <label> Phone number of next of kin</label>
         <p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
         <br/>
         <input type="text" name="kin" placeholder="Your answer"/>
       </div>
 
-      
+      <div className="fee">
+        <p>Can you pay 60% or more of the full Codetrain fees (GHS6000 for Ghanaian applicants or $1,200 for international applicants) <span style="color: red">*</span> </p>
+        
+        <input type="checkbox" name=" No" value="No"/>
+        <label>No</label>
+        <br/>
+        
+        <input type="checkbox" name="Yes" value="Yes"/>
+        <label>Yes</label> 
+      </div>
       </form>
     );
   }

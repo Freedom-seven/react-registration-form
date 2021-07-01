@@ -110,6 +110,10 @@ class App extends Component {
         </div>
         <p className="links" >This content is neither created nor endorsed by Google. <a href="#1">Report Abuse</a> - <a href="#1">Terms of Service</a> - <a href="#1">Privacy Policy</a></p>
       </section>
+      <h2 className="google">
+        <span>Google</span>
+        Forms
+      </h2>
       </form>
     );
   }

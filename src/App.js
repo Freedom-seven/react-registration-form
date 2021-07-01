@@ -96,11 +96,11 @@ class App extends Component {
             <label> Page 1 of 1</label>
           </li>
           <li>
-          <progress variant="success"  id="file" value="100" max="100">100% </progress> 
+          <progress  id="file" value="100" max="100">100% </progress> 
           </li>
         </ul>
         </div> <br/>
-        <p>Never submit passwords through Google Forms.</p>
+        <p className="warn">Never submit passwords through Google Forms.</p>
         <h5 className="cap">reCAPTCHA</h5>
         <div className="reCAP">
             <a href="#1"><p>Terms</p></a>

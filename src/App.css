@@ -6,7 +6,7 @@ body {
 .registration {
   align-content: center;
   justify-content: center;
-  margin: 3rem 20rem;
+  margin: 1rem 20rem;
 
 }
 
@@ -122,6 +122,12 @@ input {
   font-weight: bold;
   color: grey;
 
+}
+
+.warn {
+  font-weight: bold;
+  color: grey;
+  font-size: 10px;
 }
 
 .links a {

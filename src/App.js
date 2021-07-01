@@ -71,7 +71,13 @@ class App extends Component {
         <label> Current or previous school <span>*</span></label>
         <br/>
         <input type="text" name="school" placeholder="Your answer"/>
-      </div><br/><br/>
+      </div><br/>
+
+      <div className="join">
+        <label>Why do you want to join Codetrain <span>*</span></label>
+        <br/>
+        <input type="text" name="join" placeholder="Your answer"/>
+      </div><br/>
 
       
       </form>

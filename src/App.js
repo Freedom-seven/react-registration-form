@@ -12,6 +12,13 @@ class App extends Component {
         <br/>
         <span>* Required</span>
       </div>
+
+      <div className="email">
+      <label>Email address*</label>
+      <br/><br/>
+      <input type="text" name="Email address" placeholder=" Your email"/>
+      </div>
+      
       </form>
     );
   }

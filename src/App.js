@@ -17,6 +17,9 @@ class App extends Component {
       join: "",
       about: ""
     };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   handleChange(e) {
@@ -29,7 +32,20 @@ class App extends Component {
 
   handleSubmit (e) {
     e.preventDefault();
-    console.log(this.state)
+    console.log(this.state);
+    
+    this.setState({
+      email: "",
+      fullName: "",
+      phoneNumber: "",
+      kin: "",
+      fee: "",
+      fees: "",
+      location: "",
+      school: "",
+      join: "",
+      about: ""
+    });
   }
   render() {
     return (
@@ -45,26 +61,26 @@ class App extends Component {
       <div className="email">
       <label>Email address*</label>
       <br/><br/>
-      <input type="text" name="email" onChange={this.handleChange} value={this.state.email} placeholder=" Your email"/>
+      <input type="text" name="email" onChange={this.handleChange} value={this.state.email} placeholder={" Your email"}/>
       </div>
 
       <div className="name">
         <label> Full Name<span>*</span></label>
         <br/><br/>
-        <input type="text" name="fullName" id="Full Name" onChange={this.handleChange} value={this.state.fullName} placeholder="Full Name"/>
+        <input type="text" name="fullName" id="Full Name" onChange={this.handleChange} value={this.state.fullName} placeholder={"Full Name"}/>
       </div>
 
       <div className="number">
         <label>Phone Number <span>*</span></label>
         <br/>
-        <input type="text" name="phoneNumber"  onChange={this.handleChange} value={this.state.phoneNumber} placeholder="Your answer"/>
+        <input type="text" name="phoneNumber"  onChange={this.handleChange} value={this.state.phoneNumber} placeholder={"Your answer"}/>
       </div>
 
       <div className="kin">
         <label> Phone number of next of kin</label>
         <p>Phone number of someone we can reach out to in case your phone is off or not reachable. Eg, your parent, guardian or sibling, or spouse</p>
         <br/>
-        <input type="text" name="kin"  onChange={this.handleChange} value={this.state.kin} placeholder="Your answer"/>
+        <input type="text" name="kin"  onChange={this.handleChange} value={this.state.kin} placeholder={"Your answer"}/>
       </div>
 
       <div className="fee">
@@ -93,25 +109,25 @@ class App extends Component {
       <div className="location">
         <label>Location <span>*</span></label>
         <br/>
-        <input type="text" name="location"  onChange={this.handleChange} value={this.state.location} placeholder="Your answer"/>
+        <input type="text" name="location"  onChange={this.handleChange} value={this.state.location} placeholder={"Your answer"}/>
       </div>
 
       <div className="school">
         <label> Current or previous school <span>*</span></label>
         <br/>
-        <input type="text" name="school"  onChange={this.handleChange} value={this.state.school} placeholder="Your answer"/>
+        <input type="text" name="school"  onChange={this.handleChange} value={this.state.school} placeholder={"Your answer"}/>
       </div><br/>
 
       <div className="join">
         <label>Why do you want to join Codetrain <span>*</span></label>
         <br/>
-        <input type="text" name="join"  onChange={this.handleChange} value={this.state.join} placeholder="Your answer"/>
+        <input type="text" name="join"  onChange={this.handleChange} value={this.state.join} placeholder={"Your answer"}/>
       </div><br/>
 
       <div className="about">
         <label>How did you hear about Codetrain ?<span>*</span></label>
         <br/>
-        <input type="text" name="about"  onChange={this.handleChange} value={this.state.about} placeholder="Your answer"/>
+        <input type="text" name="about"  onChange={this.handleChange} value={this.state.about} placeholder={"Your answer"}/>
       </div>
       <br/><br/>
 

@@ -85,6 +85,22 @@ class App extends Component {
         <input type="text" name="about" placeholder="Your answer"/>
       </div>
       <br/><br/>
+
+      <section id="footer">
+          <h4 style={{"color: grey"}}>A copy of your repones will be emailed to the adree you provided</h4>
+          <input type="submit" name="submit"/>
+        <div className="page">
+          <ul>
+          <li>
+            <label> Page 1 of 1</label>
+          </li>
+          <li>
+          <label for="file"></label>
+          <progress  id="file" value="100" max="100">100% </progress> 
+          </li>
+        </ul>
+        </div>
+      </section>
       </form>
     );
   }

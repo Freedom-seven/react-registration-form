@@ -69,8 +69,12 @@ input {
 
 #footer > input {
 	height: 35px;
-
 	background-color: #287cfb;
 	color: #fff;
 	border-radius: 10%;
+}
+
+.page > ul > li{
+	list-style: none;
+	float: right;	
 }

@@ -67,6 +67,12 @@ class App extends Component {
         <input type="text" name="location" placeholder="Your answer"/>
       </div>
 
+      <div className="school">
+        <label> Current or previous school <span>*</span></label>
+        <br/>
+        <input type="text" name="school" placeholder="Your answer"/>
+      </div><br/><br/>
+
       
       </form>
     );

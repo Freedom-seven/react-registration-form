@@ -96,8 +96,7 @@ class App extends Component {
             <label> Page 1 of 1</label>
           </li>
           <li>
-          <label for="file"></label>
-          <progress  id="file" value="100" max="100">100% </progress> 
+          <progress variant="success"  id="file" value="100" max="100">100% </progress> 
           </li>
         </ul>
         </div> <br/>

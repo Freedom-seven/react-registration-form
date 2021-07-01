@@ -1,12 +1,13 @@
 body {
 	background-color: #ebf8ff;
-	margin: 5%;
 }
 
 .registration {
   align-content: center;
   justify-content: center;
-  margin: 1rem 20rem;
+  max-width: 40rem;
+  margin: auto;
+  
 
 }
 
@@ -17,7 +18,9 @@ body {
     align-content: center;
     padding: 30px;
     margin: 5px;
+    width: auto;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .head > h1 {
@@ -37,7 +40,8 @@ span {
 	height: auto;
 	padding: 30px;
 	background-color: #fff;
-	box-shadow: 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: auto;
 }
 
 .fee, .fees {
@@ -47,7 +51,7 @@ span {
 input {
 	border: none;
 	border-bottom: 1px solid grey;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .kin {
@@ -58,7 +62,8 @@ input {
 	height: auto;
 	padding: 30px;
 	background-color: #fff;
-}
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
 
 .join, .about {
 	border-radius: 10px;
@@ -66,9 +71,10 @@ input {
 	align-content: center;
 	margin-top: 30px;
 	height: auto;
+  width: auto;
 	padding: 30px;
 	background-color: #fff;
-}
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;}
 
 .join input {
   width: 100%;

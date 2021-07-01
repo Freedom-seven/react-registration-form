@@ -4,7 +4,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <form>
+      <form className="registration">
         <div className="head">
         <h1> Codetrain Registration Form </h1>
         

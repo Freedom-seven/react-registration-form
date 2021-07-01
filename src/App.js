@@ -79,7 +79,12 @@ class App extends Component {
         <input type="text" name="join" placeholder="Your answer"/>
       </div><br/>
 
-      
+      <div className="about">
+        <label>How did you hear about Codetrain ?<span>*</span></label>
+        <br/>
+        <input type="text" name="about" placeholder="Your answer"/>
+      </div>
+      <br/><br/>
       </form>
     );
   }

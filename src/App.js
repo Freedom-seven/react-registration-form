@@ -61,6 +61,12 @@ class App extends Component {
         <label>Organization</label>
       </div>
 
+      <div className="location">
+        <label>Location <span>*</span></label>
+        <br/>
+        <input type="text" name="location" placeholder="Your answer"/>
+      </div>
+
       
       </form>
     );

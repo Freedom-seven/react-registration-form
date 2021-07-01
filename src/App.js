@@ -87,7 +87,7 @@ class App extends Component {
       <br/><br/>
 
       <section id="footer">
-          <h4 style={{"color: grey"}}>A copy of your repones will be emailed to the adree you provided</h4>
+          <h4 style={{color: "grey"}}>A copy of your repones will be emailed to the adree you provided</h4>
           <input type="submit" name="submit"/>
         <div className="page">
           <ul>

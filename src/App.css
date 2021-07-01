@@ -34,7 +34,7 @@ span {
 	justify-content: center;
 	align-content: center;
 	margin-top: 30px;
-	height: 10vh;
+	height: auto;
 	padding: 30px;
 	background-color: #fff;
 	box-shadow: 1px;
@@ -55,7 +55,7 @@ input {
 	justify-content: center;
 	align-content: center;
 	margin-top: 30px;
-	height: 20vh;
+	height: auto;
 	padding: 30px;
 	background-color: #fff;
 }
@@ -65,7 +65,7 @@ input {
 	justify-content: center;
 	align-content: center;
 	margin-top: 30px;
-	height: 10vh;
+	height: auto;
 	padding: 30px;
 	background-color: #fff;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import image from './reCAP';
 
 class App extends Component {
   render() {
@@ -98,8 +99,13 @@ class App extends Component {
           <label for="file"></label>
           <progress  id="file" value="100" max="100">100% </progress> 
           </li>
-        </ul><br/>
+        </ul>
+        </div>
         <p>Never submit passwords through Google Forms.</p>
+        <div className="reCAP">
+          <h4>reCAPTCHA</h4>
+          <a href="#1">Privacy</a> <a href="#1">Terms</a>
+          <img src={}/>
         </div>
       </section>
       </form>

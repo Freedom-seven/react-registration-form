@@ -16,9 +16,14 @@ class App extends Component {
       <div className="email">
       <label>Email address*</label>
       <br/><br/>
-      <input type="text" name="Email address" placeholder=" Your email"/>
+      <input type="text" name="email" placeholder=" Your email"/>
       </div>
-      
+
+      <div className="name">
+        <label> Full Name<span>*</span></label>
+        <br/><br/>
+        <input type="text" name="fullName" id="Full Name" placeholder="Full Name"/>
+      </div>
       </form>
     );
   }

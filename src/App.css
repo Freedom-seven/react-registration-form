@@ -124,3 +124,15 @@ input {
   font-weight: bold;
   color: grey;
 }
+
+.google span {
+  font-weight: bold;
+  color: grey;
+  margin-right: 3px;
+}
+
+.google {
+  text-align: center;
+  color: grey;
+  font-weight: 450;
+}

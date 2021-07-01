@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import image from './reCAP';
+import image from './reCAP.png';
 
 class App extends Component {
   render() {
@@ -100,13 +100,15 @@ class App extends Component {
           <progress  id="file" value="100" max="100">100% </progress> 
           </li>
         </ul>
-        </div>
+        </div> <br/>
         <p>Never submit passwords through Google Forms.</p>
+        <h5 className="cap">reCAPTCHA</h5>
         <div className="reCAP">
-          <h4>reCAPTCHA</h4>
-          <a href="#1">Privacy</a> <a href="#1">Terms</a>
-          <img src={}/>
+            <a href="#1"><p>Terms</p></a>
+            <a href="#1"><p>Privacy</p></a> 
+          <img src={image} alt="reCAP" className="img"/>
         </div>
+        <p className="links" >This content is neither created nor endorsed by Google. <a href="#1">Report Abuse</a> - <a href="#1">Terms of Service</a> - <a href="#1">Privacy Policy</a></p>
       </section>
       </form>
     );
